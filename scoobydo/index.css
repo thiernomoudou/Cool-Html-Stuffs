@@ -1,0 +1,94 @@
+
+/*body */
+body{
+    background: #eee;
+}
+
+section{
+    margin: 0 25%;
+    text-align: center
+}
+
+h2{
+    margin-top: 15%;
+    color: #3399ff;
+   
+}
+
+p:nth-of-type(1){
+    margin: 5% 0;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+p > label{
+    display:block;
+    margin-bottom: 2%;
+    font-size: 18px;
+    color: #3399ff;
+    font-weight: 400;
+}
+
+input{
+    width: 90%;
+    padding: 1% 2%;
+    border-radius: 10px 10px;
+    border:  1px solid #3399ff;
+    font-size: 18px;
+}
+
+button{
+    color: white;
+    width: 50%;
+    border-radius: 10px 10px;
+    padding: 1.5% 0;
+    background-color: #3399ff;
+    font-size: 18px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+/* This is our style for the invalid fields */
+input:invalid{
+    border-color: #900;
+  /*background-color: #FDD;*/
+}
+
+input:focus:invalid {
+    outline: none;
+}
+
+/* This is the style of our error messages */
+.error {
+    display: block;
+    /*width  : 80%;*/
+    padding: 0 10%;
+    margin:0 3%;
+
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.error.active {
+    padding: 0.3em;
+}
+
+.result.active{
+    border: 1px solid blue;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 0  2% 2% 2%;
+    padding: 1% 1%;
+    background-color: #3399ff;
+    color: #ffffff;
+    line-height: 1.5;
+    letter-spacing: 2;
+
+}

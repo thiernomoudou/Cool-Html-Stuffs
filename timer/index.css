@@ -1,0 +1,46 @@
+
+/*body */
+body{
+    background: #eee;
+}
+
+section{
+    margin: 0 25%;
+    text-align: center
+}
+
+h2{
+    margin-top: 15%;
+    color: #3399ff;
+   
+}
+
+.clockdiv{
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+.controls{
+    margin-top: 5%;
+}
+.controls span{
+    padding: 2% 5%;
+    margin: 3% 1%;
+    border: 1px solid #3399ff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+
+.start{
+    background-color:  #33ff77;
+}
+
+.pause{
+    background-color:#3399ff;
+}
+
+.stop{
+    background-color: #ff5050;
+}
